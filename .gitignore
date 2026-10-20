@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+*.pyc
+models/*.joblib
+vendor/
+node_modules/
+.env
