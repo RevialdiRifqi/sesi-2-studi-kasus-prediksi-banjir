@@ -1,0 +1,5 @@
+// Tambahkan di routes/web.php
+use App\Http\Controllers\FloodPredictionController;
+
+Route::get('/banjir', [FloodPredictionController::class, 'index'])->name('flood.index');
+Route::post('/banjir', [FloodPredictionController::class, 'store'])->name('flood.store');

@@ -1,0 +1,4 @@
+eksperimen,worker,detik,speedup
+Latih Random Forest (300 pohon),1,5.54,1.0
+Cross-validation 5-fold (paralel antar fold),1,7.76,1.0
+Skoring 1 juta sel grid,1,3.55,1.0
